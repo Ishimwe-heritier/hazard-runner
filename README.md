@@ -2,12 +2,12 @@
 
 A browser-based survival game built with Vue 3, Vite, HTML Canvas, and SASS.
 
-**Student:** [Your Name] | **Student ID:** [Your ID]
+**Student:** Ishimwe Heritier
 
 ## Live Demo
 
-- **Netlify URL:** https://[your-site].netlify.app
-- **GitHub Repository:** https://github.com/[your-username]/pixelforge-survivor
+- **Netlify URL:** https://fascinating-alfajores-73311a.netlify.app/
+- **GitHub Repository:** https://github.com/Ishimwe-heritier/hazard-runner.git
 
 ## Interaction Model
 
