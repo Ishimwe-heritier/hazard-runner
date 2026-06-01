@@ -1,0 +1,43 @@
+$color-bg: #0a0a1a;
+$color-primary: #00ff88;
+$color-danger: #ff3355;
+$color-warning: #ffaa00;
+$color-text: #e0e0e0;
+$color-hud-bg: rgba(10, 10, 26, 0.85);
+$font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
+
+@mixin glowing-border($color, $size: 2px) {
+  border: $size solid $color;
+  box-shadow: 0 0 10px rgba($color, 0.5), inset 0 0 10px rgba($color, 0.15);
+}
+
+@mixin glass-panel {
+  background: $color-hud-bg;
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
+  padding: 12px 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: $color-bg;
+  color: $color-text;
+  font-family: $font-main;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
